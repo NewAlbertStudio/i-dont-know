@@ -1,0 +1,367 @@
+
+
+ff [p] - Gives [p] a ForceField
+
+unff [p] or uninvisff [p] or uninvisibleff [p] - Removes [p]'s ForceField
+
+fire [p] [optional red value] [optional green value] [optional blue value] - Gives [p] Fire
+
+unfire [p] - Removes [p]'s Fire
+
+sparkles [p] [optional red value] [optional green value] [optional blue value] or sp [p] [optional red value] [optional green value] [optional blue value] - Gives [p] Sparkles
+
+unsparkles [p] or unsp [p] - Removes [p]'s Sparkles
+
+smoke [p] [optional red value] [optional green value] [optional blue value] - Gives [p] Smoke
+
+unsmoke [p] - Removes [p]'s Smoke
+
+particles [p] [optional image id] - Gives [p] particles
+
+unparticles [p] - Removes [p]'s particles
+
+ws [p] [n] - Sets [p]'s WalkSpeed to [n]
+
+god [p] - Sets [p]'s MaxHealth to HUGE_VAL
+
+ungod [p] - Sets [p]'s MaxHealth to 100
+
+jp [p] [n] - Sets [p]'s JumpPower to [n]
+
+time [n] - Sets the time to [n]
+
+btools [p] - Gives [p] building tools
+
+makepart - Makes a Part in the Workspace
+
+fogend [n] - Sets FogEnd to [n]
+
+kill [p] - Kills [p]
+
+statchange1 [p] [stat] [new int value] or changestat1 [p] [stat] [new int value] or changestat [p] [stat] [new int value] - Sets [p]'s [stat] to [new int value]
+
+statchange2 [p] [stat] [new string value] or changestat2 [p] [stat] [new string value] - Sets [p]'s [stat] to [new string value]
+
+getglobal [name] - Use only if you know what it is
+
+getfield [index] [name] - Use only if you know what it is
+
+setfield [index] [name] - Use only if you know what it is
+
+getmetatable [index] - Use only if you know what it is
+
+pushnil - Use only if you know what it is
+
+setglobal [name] - Use only if you know what it is
+
+pushvalue [index] - Use only if you know what it is
+
+pushstring [string] - Use only if you know what it is
+
+pushnumber [number] - Use only if you know what it is
+
+pushboolean [boolean] - Use only if you know what it is
+
+pcall [nargs] [nresults] [err func = 0] - Use only if you know what it is
+
+emptystack - Use only if you know what it is
+
+gettop - Use only if you know what it is
+
+pop [n] - Use only if you know what it is
+
+settop [n] - Use only if you know what it is
+
+invisible [p] or invis [p] - Makes [p] invisible
+
+visible [p] or unghost [p] or vis [p] - Makes [p] visible
+
+gravity [n] - Sets the gravity to [n] (default is 196.2)
+
+print [string] - Prints [string] in the dev console
+
+tp [p1] [p2] - Teleports [p1] to [p2]
+
+music [id] [optional pitch] - Plays the music with the id [id]
+
+explode [p] - Blows up [p]
+
+punish [p] - Punishes [p]
+
+unpunish [p] - Unpunishes [p]
+
+sky [image id] - Makes a skybox with the id [id]
+
+rsky - Removes noobhax's skybox
+
+stun [p] - Stuns [p]
+
+unstun [p] - Unstuns [p]
+
+light [p] - Lights [p]
+
+unlight [p] - Unlights [p]
+
+credits - Outputs the credits
+
+cls - Cleans the output
+
+chat [p] [string] - Makes [p] chat [string]
+
+maxhealth [p] [value] - Sets [p]'s MaxHealth to [value]
+
+name [p] [new name] - Sets [p]'s Name to [new name]
+
+clone [p] - Clones [p]
+
+unname [p] - Restores [p]'s name
+
+duck [p] - Makes [p] a duck
+
+unduck [p] - Makes [p] stop being a duck
+
+freeze [p] or frz [p] - Freezes [p]
+
+unfreeze [p] or unfrz [p] or thaw [p] - Unfreezes [p]
+
+ambient [r] [g] [b] - Sets Ambient to [r] [g] [b]
+
+fogcolor [r] [g] [b] - Sets FogColor to [r] [g] [b]
+
+fogstart [n] - Sets FogStart to [n]
+
+bighead [p] - Makes [p]'s Head big
+
+normalhead [p] or unbighead [p] - Makes [p]'s Head normal
+
+fling [p] - Flings [p]
+
+shiny [p] - Makes [p] shiny
+
+unshiny [p] - Makes [p] not shiny
+
+ghost [p] - Makes [p] a ghost
+
+printidentity - Prints current identity (if you think this is fake, do getglobal printidentity and pcall 0 0)
+
+repeat [n] [command] - Executes [n] times the command [command]
+
+baseplate - Makes a baseplate
+
+evilduck [p] - Makes [p] an evil duck
+
+unevilduck [p] - Makes [p] stop being an evil duck
+
+giant [p] - Makes [p] a giant
+
+ungiant [p] - Makes [p] not a giant
+
+mesh [p] [x] [y] [z] [meshid] [textureid] - Gives [p] a mesh with the given properties (x y z are for the Scale property)
+
+unmesh [p] or unilluminati [p] or unoshawott [p] or unsnivy [p] or untepig [p] or unpatrick [p] or unugandanknuckles [p] or unspyro [p] or unthomas [p] or unicecream [p] or uncat [p] or undog [p] - Removes [p]'s meshes made with the mesh command
+
+neon [p] - Makes [p] neon
+
+unneon [p] - Makes [p] stop being neon
+
+team [p] [new team name] - Makes [p]'s team [new team name]
+
+damage [p] [n] - Damages [p]
+
+bring [p] - Brings [p]
+
+goto [p] or to [p] - Teleports LocalPlayer to [p]
+
+noob [p] - Makes [p] a noob
+
+unnoob [p] - Makes [p] stop being a noob
+
+lock [p] - Locks [p]
+
+unlock [p] - Unlocks [p]
+
+fencingreach - Fencing only
+
+brightness [n] - Sets Brightness to [n]
+
+stealtools [p] - Steals [p]'s tools
+
+swordreach - Works on games with a Sword which has Sword in the tool name
+
+heal [p] - Heals [p]
+
+clrworkspace - Clears Workspace children if they aren't a Player's Character or Terrain or Camera
+
+ssjgod [p] - Makes [p] a Super Saiyan God
+
+mouselock [p] [bool] - Sets [p]'s MouseLock to [bool]
+
+firstperson [p] - Sets [p]'s Camera to first person
+
+thirdperson [p] - Sets [p]'s Camera to third person
+
+age [p] - Outputs [p]'s AccountAge
+
+rmusic - Removes every Sound in the Workspace
+
+fegod - Enables FilteringEnabled god mode
+
+drophats - Drops LocalPlayer's hats
+
+tptopos [p] [x] [y] [z] - Teleports [p] to the Position [x] [y] [z]
+
+removetools [p] - Removes [p]'s tools
+
+printpos [p] - Prints [p]'s Position
+
+blur - Makes a BlurEffect in the Lighting
+
+unblur - Removes Blur from the Lighting
+
+fixl or fixlighting or fix - Removes Lighting children
+
+box [p] - Gives [p] a SelectionBox
+
+unbox [p] - Removes [p]'s SelectionBox
+
+removehats - Removes LocalPlayer's hats
+
+printtools - Prints LocalPlayer's tools (if you have any)
+
+savetool [case sensitive full tool name] - Puts the chosen tool in your StarterGear
+
+stealtools2 [p1] [p2] - Steals [p1]'s tools and gives them to [p2]
+
+watch [p] - Makes you watch [p]
+
+unwatch [p] - Makes you stop watching [p]
+
+waypoint-add [name] - Creates a waypoint with the name [name] for the current game
+
+waypoint-tp [name] - Teleports to the waypoint [name] for the current game
+
+waypoint-remove [name] or waypoint-r [name] - Removes the waypoint [name] for the current game
+
+clonetool [case sensitive full tool name] - Clones the chosen tool for LocalPlayer
+
+hipheight [p] [n] - Makes [p]'s HipHeight [n]
+
+warn [string] - Warns [string] in the dev console
+
+smoketool - Command by FroggysFriend, credits to him
+
+snivydoll [p] - Gives [p] a Snivy doll!
+
+tepigdoll [p] - Gives [p] a Tepig doll!
+
+chickendoll [p] - Gives [p] a Chicken doll!
+
+signtool [p] - Gives [p] a noobhax sign tool
+
+oshawottdoll [p] - Gives [p] an Oshawott doll!
+
+noobdoll [p] - Gives [p] a Noob doll!
+
+info [string] - Makes an informational message in the dev console with the text [string]
+
+error [string] - Errors [string] in the dev console
+
+output [r] [g] [b] [bold boolean] [text] - Self explanatory
+
+respawn [p] - Respawns [p]
+
+fedog - Makes you weird :O (replicates on FE)
+
+invisff [p] or invisibleff [p] - Gives [p] an invisible ForceField
+
+nuke [p] - Nukes [p]
+
+harambe [p] - Makes [p] harambe
+
+unharambe [p] - Makes [p] stop being harambe
+
+ssjgodssj [p] - Makes [p] a Super Saiyan God Super Saiyan
+
+ssjrose [p] - Makes [p] a Super Saiyan Rosé
+
+localchat [string] - Chats [string]
+
+execluac [url] - Executes Lua C commands from [url] (example: https://pastebin.com/raw/3Bz8h3LU)
+
+illuminati [p] - ???
+
+snivy [p] - ???
+
+tepig [p] - ???
+
+oshawott [p] - ???
+
+patrick [p] - ???
+
+bigfire [p] - Gives [p] big fire
+
+ugandanknuckles [p] - ???
+
+jolteondoll [p] - Gives [p] a Jolteon doll
+
+hat [p] [accessory id] - Gives [p] the chosen hat
+
+insert [model/basepart id] - ***USE IT ONLY ON LUA C EXECUTION BOX FOR BETTER RESULTS*** Inserts the chosen Model or BasePart
+
+rhum [p] - Removes [p]'s Humanoid
+
+friendspam [ON/OFF] - Enables or disables friend requests spam when you inject
+
+trump [p] - Gives [p] a Trump face (by FroggysFriend)
+
+untrump [p] - Removes [p]'s Trump face
+
+spyro - Opens Spyro Reignited Trilogy trailer on your browser
+
+spyro [p] - Gives a Spyro mesh to [p]
+
+thomas [p] - Gives [p] a Thomas The Train mesh
+
+charapp [p] [id] - Sets [p]'s CharacterAppearanceId to [id]
+
+uncharapp [p] - Makes [p] have his/her CharacterAppearance back
+
+charapp2 [p1] [p2] - Makes [p1]'s CharacterAppearance [p2]'s
+
+os [p] - Prints [p]'s Operating System
+
+fps - Prints your physics FPS
+
+esp - Enables esp
+
+unesp - Disables esp
+
+admin [p] - (CHATHOOK ONLY) Gives [p] chathook admin
+
+prefix [new chathook prefix] - Sets the chathook prefix to [new chathook prefix]
+
+refreshadmins - Removes people who left, from the admins array
+
+afk - Enables/disables AFK
+
+noobmouse or noobcursor - Enables/disables noob cursor
+
+icecream [p] - Gives [p] an ice cream mesh
+
+cat [p] - Gives [p] a cat mesh
+
+dog [p] - Gives [p] a dog mesh
+
+unanchorws or unanchorall - ***USE IT ONLY WITH CHATHOOK TO REDUCE CRASHES*** Unanchors the Workspace 
+
+unlockws or unlockall - ***USE IT ONLY WITH CHATHOOK TO REDUCE CRASHES*** Unlocks the Workspace
+
+lockws or lockall - ***USE IT ONLY WITH CHATHOOK TO REDUCE CRASHES*** Locks the Workspace
+
+colorspam - ***USE IT ONLY WITH CHATHOOK TO REDUCE CRASHES*** Makes the Workspace colorful :-)
+
+logs - Enables/disables the automatic logs deletion when noobhax loads
+
+deletelogs - Deletes the logs right now
+
+ctrlclick - Enables/disables CTRL + Click to tp when noobhax loads
